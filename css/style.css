@@ -1,0 +1,91 @@
+/*********** general **********/
+
+
+/*********** header **********/
+
+header{
+    padding: 10%;
+    background: url('../images/ascenseur-nav.jpg') no-repeat;
+    background-size: cover;
+    font-size: 20px;
+}
+
+.logo{
+    width: 50%;
+}
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: rgb(141, 22, 238);
+}
+
+.navbar-brand:hover{
+    text-shadow: 3px 1px aqua!important;
+    color: black!important;
+}
+
+h1{
+    text-align: center;
+    color: #2667f5;
+    margin-top: 50px;
+}
+
+.slides{
+    height: 40%;
+    width: 90%;
+    margin: auto;
+}
+
+/************ main **********/
+
+.presentation{
+    display: flex;
+    justify-content: center;
+}
+
+
+.presentation i{
+    font-size: 50px;
+    color: rgba(0, 17, 255, 0.877);
+}
+.presentation div{
+    text-align: center;
+    width: 20%;
+}
+
+/************ footer **********/
+
+footer{
+	margin-top: 15vh;
+	background-color: hsl(214, 100%, 20%);
+	color: white;
+    font-size: 18px;
+}
+footer h2, footer h3{
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer div{
+	padding: 1%;
+}
+footer i{
+	color: aquamarine;
+    margin-left: 10px;
+}
+
+iframe{
+    margin-left: 50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+#facebook:hover{
+    color: rgb(141, 22, 238);
+}
