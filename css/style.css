@@ -5,7 +5,8 @@
 
 header{
     padding: 10%;
-    background: url('../images/ascenseur-nav.jpg') no-repeat;
+    background: url('../images/has/hasbanner1.jpg') no-repeat;
+    background-position: center;
     background-size: cover;
     font-size: 20px;
 }
@@ -15,22 +16,21 @@ header{
 }
 .nav-link{
     color: white;
-    font-size: 20px;
+    padding: 2%;
+    font-size: 25px;
+}
+
+.btn{
+    font-size: 22px;
 }
 
 .nav-link:hover{
-    color: rgb(141, 22, 238);
+    color: rgb(0, 86, 245);
 }
 
 .navbar-brand:hover{
     text-shadow: 3px 1px aqua!important;
     color: black!important;
-}
-
-h1{
-    text-align: center;
-    color: #2667f5;
-    margin-top: 50px;
 }
 
 .slides{
@@ -41,14 +41,24 @@ h1{
 
 /************ main **********/
 
+.titres{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+}
+
+body{
+    background-color: whitesmoke;
+}
 .presentation{
     display: flex;
     justify-content: center;
+    margin-top: 10%;
 }
 
 
 .presentation i{
-    font-size: 50px;
+    font-size: 60px;
     color: rgba(0, 17, 255, 0.877);
 }
 .presentation div{
@@ -56,6 +66,18 @@ h1{
     width: 20%;
 }
 
+.about, .partenaires{
+    margin-top: 100px;
+}
+
+#image-bureau{
+    width: 100%;
+    border: 10px rgb(8, 43, 240) ridge;
+}
+
+#carouselExampleCaptions img{
+    width: 100%;
+}
 /************ footer **********/
 
 footer{
@@ -64,6 +86,10 @@ footer{
 	color: white;
     font-size: 18px;
 }
+footer .nav-link{
+    font-size: 18px;;
+}
+
 footer h2, footer h3{
     text-align: center;
     padding-top: 20px;
@@ -77,15 +103,11 @@ footer i{
     margin-left: 10px;
 }
 
-iframe{
-    margin-left: 50px;
+#iframe{
+   padding: 0px;
 }
 
 footer a{
     text-decoration: none;
     color: white;
-}
-
-#facebook:hover{
-    color: rgb(141, 22, 238);
 }
