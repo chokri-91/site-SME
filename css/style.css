@@ -323,3 +323,9 @@ fieldset legend{
     margin-top: 3rem;
     text-align: center;
 }
+
+.error-message strong, label em
+{
+    color: crimson;
+    font-style: normal;
+}
