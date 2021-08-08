@@ -27,6 +27,12 @@ header{
 #telephone small{
     color: white;
 }
+#nav-contact div{
+    background-color: whitesmoke;
+}
+#nav-contact .topbar-email{
+    float: right;
+}
 
 .logo{
     width: 50%;
@@ -35,6 +41,10 @@ header{
     color: white;
     padding: 2%;
     font-size: 22px;
+}
+
+header .nav-link{
+    font-weight: bold;
 }
 
 .btn{
@@ -48,6 +58,32 @@ header{
 
 .flexslider{
     margin-top: 5%;
+}
+
+
+.menu{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+}
+.menu li{
+    padding: 1%;
+}
+
+#products:hover .menu{
+    display: block;
+    list-style: none;
+    left: 48.5%;
+}
+
+#products:hover .menu li a{
+    text-decoration: none;
+    color: rgb(4, 0, 245);
+    font-size: 22px;
+}
+
+#products:hover .menu li a:hover{
+    color: black;
 }
 
 .slides{
