@@ -1,14 +1,17 @@
 /*********** general **********/
+a{
+    text-decoration: none;
+}
 
-
+li{
+    list-style: none;
+}
 /*********** header **********/
 
 header{
-    padding: 15%;
-    background: url('../images/has/hasbanner1.jpg') no-repeat;
-    background-position:bottom;
-    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.712);
     font-size: 20px;
+    padding: 1%;
 }
 #nav-contact div{
     background-color: whitesmoke;
@@ -17,17 +20,21 @@ header{
     float: right;
 }
 
+#telephone i{
+    color: rgb(0, 155, 245);
+}
+
+#telephone small{
+    color: white;
+}
+
 .logo{
     width: 50%;
 }
 .nav-link{
     color: white;
     padding: 2%;
-    font-size: 25px;
-}
-
-header .nav-link{
-    font-weight: bold;
+    font-size: 22px;
 }
 
 .btn{
@@ -36,17 +43,15 @@ header .nav-link{
 }
 
 .nav-link:hover{
-    color: rgb(0, 86, 245);
+    color: rgb(0, 155, 245);
 }
 
-.navbar-brand:hover{
-    text-shadow: 3px 1px aqua!important;
-    color: black!important;
+.flexslider{
+    margin-top: 5%;
 }
 
 .slides{
-    height: 40%;
-    width: 90%;
+    width: 94%;
     margin: auto;
 }
 
@@ -72,7 +77,7 @@ main h3{
     font-style: italic;
 }
 
-main p{
+#histoire p{
     text-indent: 20px;
 }
 body{
@@ -84,10 +89,9 @@ body{
     margin-top: 10%;
 }
 
-
 .presentation i{
     font-size: 60px;
-    color: rgba(0, 17, 255, 0.877);
+    color: rgb(0, 86, 245);
 }
 .presentation div{
     text-align: center;
@@ -98,9 +102,9 @@ body{
     margin-top: 100px;
 }
 
-#image-bureau{
-    width: 100%;
-    border: 10px rgb(8, 43, 240) ridge;
+#elevator-image{
+    width: 90%;
+    border: 10px rgb(62, 71, 77) ridge;
 }
 
 #carouselExampleCaptions img{
@@ -110,7 +114,7 @@ body{
 
 footer{
 	margin-top: 15vh;
-	background-color: hsl(214, 100%, 20%);
+	background-color: rgba(0, 0, 0, 0.712);
 	color: white;
     font-size: 18px;
 }
@@ -124,13 +128,13 @@ footer h2, footer h3{
 }
 
 footer h2 span{
-    color: rgb(0, 86, 245);
+    color: rgb(0, 155, 245);
 }
 footer div{
 	padding: 1%;
 }
 footer i{
-	color: aquamarine;
+	color: rgb(0, 155, 245);
     margin-left: 10px;
 }
 
@@ -141,4 +145,145 @@ footer i{
 footer a{
     text-decoration: none;
     color: white;
+}
+
+/********** page cabines *********/
+
+#cabine-header .nav-link{
+    padding: 8px 12px;
+    background-color: rgb(0, 86, 245);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#cabine-header .nav-link:hover{
+    background-color: whitesmoke;
+}
+
+#cabine-header i{
+    padding-right: 5px;
+}
+
+#cabines h1{
+    text-align: center;
+}
+
+#catalog-title p{
+   float: right;
+}
+#cabines h1 span{
+    color: rgb(0, 86, 245);
+    font-style: italic;
+}
+
+#cabines-details{
+    width: 90%;
+    margin: auto;
+}
+
+#catalog-title h3{
+    display: inline-block;
+    text-shadow: none;
+    margin: 40px 0px;
+}
+
+#cabines img{
+    width: 80%;
+    margin: auto;
+}
+
+/********** page portes *********/
+
+#portes h1{
+    text-align: center;
+}
+
+#portes-details{
+    width: 90%;
+    margin: auto;
+}
+
+#portes img{
+    width: 90%;
+    margin: auto;
+}
+
+/********** page about *********/
+
+.row h1{
+    text-align: center;
+    margin: 3% 0%;
+}
+
+.row h2{
+    text-align: center;
+    color: rgb(0, 86, 245);
+}
+
+.row img{
+    width: auto;
+}
+
+#traction p{
+	line-height: 2rem;
+}
+
+
+/********** page devis *********/
+
+#devis{
+	margin-top: 5rem;
+    text-align: center;
+}
+
+#devis .col-lg-3{
+    text-align: left;
+}
+
+#devis span{
+    color: crimson;
+}
+
+form{
+	width: 80%;
+	margin: auto;
+	margin-top: 5vh;
+	text-align: left;
+}
+
+.row{
+    margin: 2rem 0;
+}
+form li{
+	margin: 2%;
+}
+
+form label{
+	font-weight: bold;
+}
+
+input{
+	padding: 2.5%;
+}
+
+fieldset{
+	margin: 1.5%;
+	border: 1px solid rgb(0, 86, 245);
+}
+
+fieldset legend{
+    float: none;
+    padding: 10px;
+    color: rgb(0 86 245);
+    max-width: fit-content;
+}
+
+.submitt{
+	padding: 0.6rem 1.8rem;
+	color: white;
+    background-color: rgb(0, 86, 245);
+}
+
+.validation{
+    margin-top: 3rem;
+    text-align: center;
 }

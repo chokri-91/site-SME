@@ -74,8 +74,8 @@ html[xmlns] .flexslider .slides {
  * ====================================================================================================================*/
 .flexslider {
   margin: 0 0 60px;
-  background: #fff;
-  border: 10px solid #fff;
+  background: whitesmoke;
+  border: 10px solid whitesmoke;
   position: relative;
   zoom: 1;
   -webkit-border-radius: 4px;
@@ -90,7 +90,7 @@ html[xmlns] .flexslider .slides {
   zoom: 1;
 }
 .flexslider .slides img {
-  height: auto;
+  height: 500px;
   -moz-user-select: none;
 }
 .flex-viewport {
