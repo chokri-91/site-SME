@@ -4,11 +4,17 @@
 /*********** header **********/
 
 header{
-    padding: 10%;
+    padding: 15%;
     background: url('../images/has/hasbanner1.jpg') no-repeat;
-    background-position: center;
+    background-position:bottom;
     background-size: cover;
     font-size: 20px;
+}
+#nav-contact div{
+    background-color: whitesmoke;
+}
+#nav-contact .topbar-email{
+    float: right;
 }
 
 .logo{
@@ -20,8 +26,13 @@ header{
     font-size: 25px;
 }
 
+header .nav-link{
+    font-weight: bold;
+}
+
 .btn{
     font-size: 22px;
+    font-weight: bold;
 }
 
 .nav-link:hover{
@@ -41,12 +52,29 @@ header{
 
 /************ main **********/
 
+h1 i{
+    padding: 10px;
+    text-shadow: none;
+    color: rgb(0, 86, 245);
+}
+h1 span{
+    color: rgb(0, 86, 245);
+}
 .titres{
     text-align: center;
     color: rgb(0, 0, 0);
     margin-top: 50px;
+    font-style: italic;
 }
 
+main h3{
+    text-shadow: 2px 4px 8px;
+    font-style: italic;
+}
+
+main p{
+    text-indent: 20px;
+}
 body{
     background-color: whitesmoke;
 }
@@ -95,6 +123,9 @@ footer h2, footer h3{
     padding-top: 20px;
 }
 
+footer h2 span{
+    color: rgb(0, 86, 245);
+}
 footer div{
 	padding: 1%;
 }
