@@ -56,7 +56,7 @@
             </aside>
 
             <div class="button">
-                <form data-validate>
+                <form data-validate method="POST" action="contact.php">
                     <fieldset id="form-contact" class="container"> <legend> Coordonnées Personnelles </legend>
                         <div class="row">
                             <div class="col-lg-3">
@@ -78,7 +78,7 @@
                             </div>
 
                             <div class="col-lg-2">
-                                <input data-type="text" data-name="Company" id="company" type="text" name="company">
+                                <input data-type="text" data-name="Nom de l'entreprise" id="company" type="text" name="company">
                             </div>
 
                         </div>
@@ -89,7 +89,7 @@
                             </div>
 
                             <div class="col-lg-2">
-                                <input data-required data-name="Email" id="email" type="email" name="email">
+                                <input data-required data-name="Adresse e-mail" id="email" type="email" name="email">
                             </div>
 
                         </div>
@@ -116,15 +116,14 @@
                             </div>
 
                             <div class="col-lg-2">
-                                <select data-required data-type="int" data-name="appareils" id="appareils">
+                                <select data-required data-type="int" name="elevators" data-name="Nombre d'appareils" id="appareils">
                                     <option value="">-</option>
-                                    <option value="2">1</option>
-                                    <option value="3">2</option>
-                                    <option value="4">3</option>
-                                    <option value="5">+3</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="+3">+3</option>
                                 </select>
                             </div>
-
                         </div>
                         
                         <div class="row">
@@ -133,14 +132,29 @@
                             </div>
 
                             <div class="col-lg-2">
-                                <select data-required data-type="int" data-name="etages" id="etages">
+                                <select data-required data-type="int" name="floors" data-name="Nombre d'étages" id="etages">
                                     <option value="">-</option>
                                     <option value="2">2</option>
                                     <option value="3">3</option>
                                     <option value="4">4</option>
                                     <option value="5">5</option>
                                     <option value="6">6</option>
-                                    <option value="7">+6</option>
+                                    <option value="+6">+6</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <label>Type d'ascenseur </label>
+                            </div>
+
+                            <div class="col-lg-2">
+                                <select data-name="ascenseur" id="ascenseur" name="type">
+                                    <option value="">Séléctionner le type d'ascenseur </option>
+                                    <option value="classique">Ascenseur Classique</option>
+                                    <option value="gearless">Ascenseur Gearless</option>
+                                    <option value="hydraulique">Ascenseur Hydraulique</option>
                                 </select>
                             </div>
                         </div>

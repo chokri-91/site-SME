@@ -6,6 +6,10 @@ a{
 li{
     list-style: none;
 }
+
+p{
+    font-size: 17px;
+}
 /*********** header **********/
 
 header{
@@ -60,7 +64,6 @@ header .nav-link{
     margin-top: 5%;
 }
 
-
 .menu{
     display: none;
     position: absolute;
@@ -113,9 +116,19 @@ main h3{
     font-style: italic;
 }
 
-#histoire p{
+#histoire p, #partenaires p{
     text-indent: 20px;
+    margin-top: 20px;
 }
+
+#partenaires cite{
+    color: crimson;
+}
+
+#partenaires{
+    text-align: center;
+}
+
 body{
     background-color: whitesmoke;
 }
@@ -245,7 +258,7 @@ footer a{
 
 /********** page about *********/
 
-.row h1{
+.row h1, #monte-charge h1{
     text-align: center;
     margin: 3% 0%;
 }
@@ -297,7 +310,7 @@ form label{
 	font-weight: bold;
 }
 
-input{
+input,select{
 	padding: 2.5%;
 }
 

@@ -38,7 +38,7 @@ class FormValidator
                 // Non, alors que le champ est requis, donc il y a une erreur.
                 errors.push(
                 {
-                    fieldName : "Le champ " + $(this).data('name'),
+                    fieldName : $(this).data('name'),
                     message   : 'est obligatoire'
                 });
             }
