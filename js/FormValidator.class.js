@@ -111,7 +111,6 @@ class FormValidator
         $.merge(this.totalErrors, errors);
     }
 
-
     onSubmitForm(event)
     {
         // Recherche et effacement de la balise HTML contenant tous les messages d'erreurs.
@@ -130,7 +129,10 @@ class FormValidator
         //si oui les afficher
         if(this.totalErrors.length != 0)
         {
+            
             event.preventDefault();
+            
+            
             $('.error-message').find('p').empty()
             $('.error-message').append("<strong class='total-errors'> </strong> <br>")
 
@@ -150,7 +152,7 @@ class FormValidator
         }
 
         else{
-            alert('Merci, vos informations ont bien étaient envoyées <br> Nous reviendrons vers vous dès que possible');
+            alert('Merci, vos informations ont bien étaient envoyées. Nous reviendrons vers vous dès que possible');
         }
     }
 
@@ -158,7 +160,7 @@ class FormValidator
     {
         // Installation d'un gestionnaire d'évènement sur la soumission du formulaire.
         this.form.on('submit', this.onSubmitForm.bind(this))
-         /* a completer */
+    
         
         if(this.errorMessage.find('#errors').text().trim() != '')
         {

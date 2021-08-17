@@ -22,4 +22,5 @@ $req->execute([
     $_POST['type']
 ]);
 
+
 header('location:index.html');
