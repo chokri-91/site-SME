@@ -2,8 +2,9 @@
 
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=devis-sme;charset=utf8', 'root', '');
+    $bdd = new PDO('mysql:host=db.3wa.io;dbname=chokri_sme-devis;charset=UTF8', 'chokri', '3aae96089b19a57dc8d22cc1efca78f7');
 }
+
 catch (PDOException $erreur)
 {
     die( 'Erreur :'. $erreur-> getMessage() );
