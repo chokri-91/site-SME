@@ -10,11 +10,6 @@ li{
 p{
     font-size: 17px;
 }
-
-body{
-    background-color: whitesmoke;
-}
-
 /*********** header **********/
 
 header{
@@ -58,6 +53,7 @@ header .nav-link{
 
 .btn{
     font-size: 22px;
+    font-weight: bold;
 }
 
 .nav-link:hover{
@@ -98,7 +94,6 @@ header .nav-link{
     margin: auto;
 }
 
-
 /************ main **********/
 
 h1 i{
@@ -132,19 +127,11 @@ main h3{
 
 #partenaires{
     text-align: center;
-    margin-top: 10rem;
 }
 
-#partenaires .container .row{
-    width: 60%;
-    margin: auto;
+body{
+    background-color: whitesmoke;
 }
-
-.img-thumbnail{
-    border: 2px solid rgb(0, 155, 245);
-    height: 100%;
-}
-
 .presentation{
     display: flex;
     justify-content: center;
@@ -289,18 +276,7 @@ footer a{
 	line-height: 2rem;
 }
 
-#traction h3{
-    text-align: center;
-    text-shadow: none;
-}
 
-#monte-charge p{
-    line-height: 2.5rem;
-}
-
-#monte-charge img{
-    width: 20%;
-}
 /********** page devis *********/
 
 #devis{
@@ -365,53 +341,4 @@ fieldset legend{
 {
     color: crimson;
     font-style: normal;
-}
-
-
-/********** version tablette ***********/
-
-
-
-
-/********** version mobile ***********/
-@media screen and (max-width: 767px){
-
-#telephone, #devis{  
-    margin: auto;
-}
-
-.collapse:not(.show){
-    display: block;
-    text-align: center;
-}
-
-.flexslider .slides img {
-    height: 250px;
-}
-
-.presentation{
-    display: none;
-}
-
-#histoire .row>*{
-    width: 100%;
-}
-
-#elevator-img{
-    display: none;
-}
-
-#partenaires-img .col{
-    display: block;
-    flex: none;
-    width: 100%;
-    margin-top: 7%;
-}
-
-#partenaires-img2{
-    display: none;
-}
-
-
-
 }
